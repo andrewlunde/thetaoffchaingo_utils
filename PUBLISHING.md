@@ -6,7 +6,6 @@ git push origin v0.2.0
 GOPROXY=proxy.golang.org go list -m github.com/andrewlunde/thetaoffchaingo_utils@v0.2.0
 
 go get github.com/andrewlunde/thetaoffchaingo_utils@v0.2.0
-
   
 // in go.mod of application using this module
 require github.com/thetatoken/theta/utils v0.0.0
